@@ -103,9 +103,8 @@ function draw() {
        checkPointSound.play() 
     }
     
-    if (ground.x < 300){
       ground.x = ground.width/2;
-    }
+    
     
     //jump when the space key is pressed
     if(keyDown("space")&& monk.y >= 130) {
